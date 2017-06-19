@@ -1,0 +1,35 @@
+{
+  "name": "highcharts-export-server",
+  "author": "Highsoft AS <support@highcharts.com> (http://www.highcharts.com/about)",
+  "repository": {
+    "url": "https://github.com/highcharts/node-export-server",
+    "type": "git"
+  },
+  "version": "1.0.15",
+  "bin": {
+    "highcharts-export-server": "./bin/cli.js"
+  },
+  "scripts": {
+    "install": "node ./build.js"
+  },
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "async": "*",
+    "body-parser": "*",
+    "colors": "*",
+    "cors": "*",
+    "express": "*",
+    "express-form-data": "*",
+    "express-rate-limit": "*",
+    "git": "^0.1.5",
+    "mkdirp": "*",
+    "phantomjs-prebuilt": "2.1.13",
+    "prompt": "*",
+    "request": "*",
+    "uuid": ">=3.0.1"
+  },
+  "engines": {
+    "node": ">=5.10.0"
+  }
+}
